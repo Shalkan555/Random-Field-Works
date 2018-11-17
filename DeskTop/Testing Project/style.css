@@ -1,0 +1,61 @@
+body {
+	font-size: 30px;
+}
+/* Top Part of the Menu */ 
+.topMenu {
+	position: sticky;
+	top: 0;
+	border: 2px solid green;
+	background: #b3ffe0;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#leftSection, #midSection, #rightSection {
+	display: inline-block;
+	border: 1px solid red;
+	top: 8px;
+    right: 16px;
+    width: 31%;
+    overflow: visible;
+    font-size: 35px;
+    margin-top: 10px;
+
+}
+
+#leftSection {
+	text-align: left;
+
+}
+
+/*
+I don't know why I added this either.
+
+#midSection {
+	position: middle;
+}
+*/
+
+#rightSection{
+	text-align: right;
+}
+
+
+/* Content Part of the Menu */
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#midBody {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+
+
+
